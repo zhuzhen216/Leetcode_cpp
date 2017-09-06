@@ -32,7 +32,7 @@ streamsize prec = cout.precision();
 cout << setprecision(3) << final_grade << setprecision(prec);
 
 }
-catch (domain_error e) {cout << e.waht();}
+catch (domain_error e) {cout << e.what();}
 cout << endl;
 }
 }
